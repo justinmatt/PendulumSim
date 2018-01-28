@@ -11,8 +11,7 @@ def pendulum(length,acceleration_due_to_gravity,amplitude):
      
     bob=sphere(pos=(A,A),radius=1,material=materials.rough,color=color.yellow,make_trail=False,visible=True)
     string=cylinder(pos=(0,l),radius=0.05,axis=(0,-l),color=color.blue,visible=True)
-    roof=box(pos=(0,l),size=(4,0.06,4),color=color.red,material=materials.silver)
-    scene.waitfor('click')  
+    roof=box(pos=(0,l),size=(4,0.06,4),color=color.red,material=materials.silver) 
 
     while True:                         #To continue execution for infinite time
         rate(250)                       #Number of execution of below code per second 
