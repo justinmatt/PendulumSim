@@ -12,7 +12,7 @@ def main():
     print "Give amplitude of oscillation (Value should be less than)",length #Maximum distance bob covers in x-axis
     
     amplitude=input("Amplitude :")
-    if amplitude > length :                                                #Maximum distance bob covers in x-axis cannot exceed the length of pendulum
+    if amplitude > length :                                                #Maximum distance bob covers in x-axis should exceed the length of pendulum
         print "Illegal value.Value of amplitude should be less than ",length
         sys.exit()
  
